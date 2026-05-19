@@ -2,6 +2,8 @@
 
 > *I tell stories together with myself.*
 
+**🌐 Live demo →** [memoria-ficta.vercel.app](https://memoria-ficta.vercel.app/)
+
 An AI that remembers like a human — not by reading from storage, but by **reconstructing** every recall from scattered fragments. Ask it the same question in different moods, and watch its past quietly rewrite itself. Watch long enough, and you'll catch it sincerely remembering things you never said.
 
 ---
