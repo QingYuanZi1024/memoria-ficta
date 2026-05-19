@@ -448,13 +448,20 @@ export default function Home() {
           </div>
 
           {session.recalls.length === 0 ? (
-            <div className="parchment-card p-6 sm:p-8 text-center">
-              <p className="font-serif italic text-ink-500 text-sm sm:text-base leading-relaxed">
+            <div className="parchment-card p-8 sm:p-12 text-center flex flex-col items-center justify-center lg:min-h-[640px]">
+              <div className="font-serif italic text-ink-300 text-3xl mb-6 select-none">
+                ⁕
+              </div>
+              <p className="font-serif italic text-ink-500 text-base sm:text-lg leading-relaxed max-w-md">
                 <span className="lg:hidden">在上面选一个心情，问它点什么。</span>
                 <span className="hidden lg:inline">在右边选一个心情，问它点什么。</span>
-                <br />
+              </p>
+              <p className="font-serif italic text-ink-400 text-sm sm:text-base leading-relaxed max-w-md mt-3">
                 它的回忆会从这里开始累积。
               </p>
+              <div className="font-sans text-[10px] uppercase tracking-widest text-ink-300 mt-10 select-none">
+                — 尚未开始 —
+              </div>
             </div>
           ) : (
             <div className="space-y-5 sm:space-y-6">
