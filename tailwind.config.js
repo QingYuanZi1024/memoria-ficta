@@ -26,8 +26,21 @@ module.exports = {
         },
       },
       fontFamily: {
-        serif: ['"EB Garamond"', "Garamond", "Caslon", "Georgia", "serif"],
-        sans: ['"Inter"', "system-ui", "sans-serif"],
+        // Variables come from next/font/google in src/app/layout.tsx
+        serif: [
+          "var(--font-garamond)",
+          '"EB Garamond"',
+          "Garamond",
+          "Caslon",
+          "Georgia",
+          "serif",
+        ],
+        sans: [
+          "var(--font-inter)",
+          '"Inter"',
+          "system-ui",
+          "sans-serif",
+        ],
       },
     },
   },
